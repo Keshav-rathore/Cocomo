@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    padding:20px;
+    background-color: #e9e1fa;
+    display:flex;
+    flex-direction: column;
+}
+
+.input-container{
+    display:flex;
+    padding:20px;
+    background-color: #e9e1fa;
+}
+
+.text{
+  color: #432b76; 
+  padding:5px;
+  margin:5px; 
+}
+
+#team-size{
+    padding:5px;
+    border:none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-right:10px;
+}
+
+#kloc{
+    padding:5px;
+    margin-right:10px;
+    width: 100px;
+    height: 30px;
+    border:none;
+    border-radius: 5px;
+}
+
+#output-display{
+    display:flex;
+    justify-content: space-around;
+    padding:10px;
+    margin:10px;
+    background-color: #e9e1fa;
+}
+
+.value{
+    color: #432b76; 
+    padding:5px;
+    margin:5px; 
+    display:flex;   
+    align-items: start;  
+}
+
+#value-list{
+    color: #b51013; 
+    padding:5px;
+    margin:5px; 
+    display:flex;
+    justify-content: space-around;   
+}
+
+.value{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    margin:5px;
+    background-color: #e9e1fa;
+}
+
+#calculate-btn{
+    background-color: #432b76;
+    border-radius: 5px;
+    border-style: none;
+    padding:10px;
+    margin-top:5px;
+    color: #e9e1fa;
+    cursor: pointer;
+    text-align:center;
+}
+
+
+
